@@ -1,0 +1,483 @@
+
+body{
+    /*navbar-fixe clear fix*/
+    padding-top: 110px;
+    color: teal !important;
+    background-color: #f0f1e9;
+}
+
+/*NAVBAR*/
+#logo{
+    width: 19rem;
+}
+
+.navbar-brand{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.navbar-header{
+
+}
+
+.navbar-inverse{
+    background-color: teal;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar-nav li a{
+    color: white !important;
+}
+
+nav .active a{
+    background-color: teal !important;
+    border-bottom: solid white;
+}
+
+.form-group{
+    padding-top: 0.5rem;
+}
+
+.form-control{
+    font-size: small;
+    height: 2.5rem;
+    border-radius: 10rem;
+}
+
+
+/*Notification*/
+.dropdown-toggle{
+    background-color: transparent !important;
+}
+.notifications-list{
+    min-width: 28rem;
+    max-height: 100vh;
+    overflow: auto;
+}
+.dropdown-menu li a{
+    color: teal !important;
+    border-bottom: solid .1rem grey;
+}
+/*mobile-notification*/
+.notifications-list-m{
+    min-width: 28rem;
+    max-height: 100vh;
+    overflow: auto;
+    right: 0;
+}
+
+
+/*SEARCH BAR*/
+#search-main{
+    display: none;
+}
+#search-mobile{
+    display: block;
+    background-color: #f0f1e9;
+    margin-left: 0 !important;
+}
+#search-mobile .navbar-form{
+    margin-left: 0;
+}
+#search-mobile .navbar-form .form-control{
+    width: 100%;
+}
+
+/*glyph search icon inside search bar*/
+
+
+.input-group .icon-addon .form-control {
+    border-radius: 0;
+}
+
+.icon-addon {
+    position: relative;
+    color: #555;
+    display: block;
+}
+
+.icon-addon:after,
+.icon-addon:before {
+    display: table;
+    content: " ";
+}
+
+.icon-addon:after {
+    clear: both;
+}
+
+.icon-addon.addon-md .glyphicon,
+.icon-addon .glyphicon,
+.icon-addon.addon-md .fa,
+.icon-addon .fa {
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    font-size: 14px;
+    width: 20px;
+    margin-left: -2.5px;
+    text-align: center;
+    padding: 10px 0;
+    top: -4px
+}
+
+.icon-addon.addon-lg .form-control {
+    line-height: 1.33;
+    height: 46px;
+    font-size: 18px;
+    padding: 10px 16px 10px 40px;
+}
+
+.icon-addon.addon-sm .form-control {
+    height: 30px;
+    padding: 5px 10px 5px 28px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.icon-addon.addon-lg .fa,
+.icon-addon.addon-lg .glyphicon {
+    font-size: 18px;
+    margin-left: 0;
+    left: 11px;
+    top: 4px;
+}
+
+.icon-addon.addon-md .form-control,
+.icon-addon .form-control {
+    padding-left: 30px;
+    float: left;
+    font-weight: normal;
+}
+
+.icon-addon.addon-sm .fa,
+.icon-addon.addon-sm .glyphicon {
+    margin-left: 0;
+    font-size: 12px;
+    left: 5px;
+    top: -1px
+}
+
+.icon-addon .form-control:focus + .glyphicon,
+.icon-addon:hover .glyphicon,
+.icon-addon .form-control:focus + .fa,
+.icon-addon:hover .fa {
+    color: teal;
+}
+
+
+/*home-content*/
+.main-content{
+    min-height: 100vh;
+}
+
+.panel-default .panel-heading{
+    background-color: #fdfdfe;
+    border-color: #fdfdfe;
+    color: teal;
+    font-weight: bold;
+}
+
+.panel-default .panel-footer{
+    background-color: #fdfdfe;
+}
+
+.custom-padding-1{
+    padding: 0.5rem;
+}
+
+.custom-border-1{
+    border: solid teal .1rem;
+}
+.custom-border-2{
+    border: solid teal .3rem;
+}
+
+.media-heading{
+    font-size: 1.5rem !important;
+    margin-bottom: 0rem;
+    font-weight: bold;
+}
+
+.media-body{
+    padding-top: .5rem;
+}
+
+.question{
+    font-weight: bolder;
+    font-size: large;
+    color: #004848;
+}
+
+.panel-body{
+    padding-top: 0;
+}
+
+.panel{
+    border: none;
+    background-color: #fdfdfe;
+}
+
+.custom-button-1{
+    background-color: #007f80;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    font-size: large;
+    padding: 0 3rem;
+    margin-bottom: 1rem;
+}
+
+
+
+@media (min-width: 992px) {
+
+    .custom-left-sidebar {
+        position: fixed;
+        top: 110px;
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+        display: block;
+    }
+
+    .custom-right-sidebar {
+        position: fixed;
+        top: 110px;
+        bottom: 0;
+        right: 0;
+        z-index: 1000;
+        display: block;
+    }
+
+    .custom-right-sidebar {
+        margin-right: 8.33333333%;
+    }
+
+    .custom-font-size-1 {
+        font-size: .93rem !important;
+    }
+
+    .custom-nav-toggle-btn {
+        display: none;
+    }
+
+    /*SEARCH BAR*/
+    #search-main {
+        display: inline-block;
+    }
+
+    #search-mobile {
+        display: none;
+    }
+    /*notification and dropdown*/
+    .custom-display-hide-1{
+        display: none;
+    }
+
+}
+
+
+@media (min-width: 1200px){
+    .custom-right-sidebar{
+        margin-right: 8.33333333%;
+    }
+
+    .custom-font-size-1{
+        font-size: 1.19rem !important;
+    }
+
+}
+
+
+@media (min-width: 1360px){
+
+    .custom-font-size-1{
+        font-size: 1.2rem !important;
+    }
+
+    .custom-right-sidebar {
+        margin-right: 12% !important;
+    }
+
+    .custom-left-sidebar {
+        margin-left: 12% !important;
+    }
+}
+
+/*All the down code is for collapsible stuff*/
+#sidebarCollapse{
+    display: none;
+}
+#sidebarCollapse1{
+    display: none;
+}
+#notification{
+    display: none;
+}
+@media (max-width: 991px){
+    #sidebarCollapse{
+        display: inline-block;
+    }
+    #sidebarCollapse1{
+        display: inline-block;
+    }
+    #notification{
+        display: inline-block;
+    }
+    .container{
+        padding: 0;
+    }
+    .navbar-header{z-index: 9999;}
+    .custom-nav-wrapper{
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        margin-top: -110vh;
+        z-index: 9998;
+        transition: all .3s;
+    }
+    .active-nav{
+        margin-top: 0;
+    }
+    .navbar-right{
+        text-align: center;
+        float: none !important;
+        margin-right: 0 !important;
+    }
+    .navbar-brand>img{
+        display: inline;
+    }
+    .active a{
+        border-bottom: none !important;
+    }
+    .custom-mobile{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .navbar-form{
+        border: none !important;
+    }
+    .custom-sidebar-wrapper{
+        padding: 0 5rem;
+        position: fixed;
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        margin-left: -150vw;
+        z-index: 9998;
+        overflow: scroll;
+        transition: all .3s;
+        -ms-overflow-style: none;
+        overflow: -moz-scrollbars-none;
+    }
+    .custom-sidebar-wrapper::-webkit-scrollbar {
+        display: none;
+    }
+    .custom-left-sidebar {
+        z-index: 1000;
+        display: block;
+        margin-bottom: 0;
+    }
+
+    .custom-right-sidebar{
+        margin-top: 0;
+        z-index: 1000;
+        display: block;
+        margin-bottom: 10rem;
+    }
+    .main-content{
+        display: none;
+    }
+    .active-side{
+        margin-left: 0 !important;
+    }
+    .custom-width-adjustment{
+        width: 100vw !important;
+    }
+    .custom-display-hide-2{
+        display: none;
+    }
+
+}
+
+@media (max-width: 767px){
+
+    .row{
+        margin-left: 0;
+        padding-right: 0;
+    }
+}
+/*pollpanel*/
+.custom-image{
+  padding-top:98px;
+  background-color: #4e8e8e;
+  height: 250px;
+}
+.custom-button-4{
+  padding: 4rem;
+}
+.custom-text-field{
+  color:teal;
+  border-color: teal !important;
+  border-width: thin !important;
+  width:99%;
+  margin-bottom: 1rem;
+  padding-left: 2%;
+
+}
+.custom-text-field-2{
+  color: teal !important;
+  border-bottom: solid !important;
+  border-color: teal !important;
+  border-width: thin !important;
+  margin-bottom: 1rem !important;
+  width: 99%;
+
+
+}
+
+@media only screen and (min-width: 992px) {
+  .custom-text-field-2{
+    width: 49.5%;
+  }
+}
+
+
+/*landing page*/
+.custom-landing{
+  text-align: center;
+  margin-top: -10rem;
+
+
+}
+.custom-logo-img{
+  height: 6rem;
+
+}
+.custom-landing-content{
+
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  }
+.custom-landing-button:hover{
+  background-color:white;
+  color:  #007f80;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+@media (min-width: 920px){
+.custom-landing-content{
+  position: fixed;
+  padding-top: 48vh;
+  bottom: 0;
+  left: 74%;
+  right: 0;
+}
+}

@@ -1,0 +1,64 @@
+body{
+    /*navbar-fixe clear fix*/
+    padding-top: 150px;
+    color: teal !important;
+    background-color: teal;
+}
+
+/*navbar*/
+#logo{
+    width: 19rem;
+}
+
+/*main*/
+.signUpform{
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 2rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.custom-input{
+    width: 70%;
+}
+
+.custom-head{
+    margin-bottom: 3rem;
+}
+
+.custom-p{
+    margin-bottom: 3rem;
+}
+
+.custom-button-1{
+    background-color: #007f80;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    font-size: large;
+    padding: 0 3rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+h2{
+    padding-bottom: .5rem;
+    display: inline-block;
+    border-bottom: solid teal;
+}
+
+.custom-otp{
+    text-align: center;
+    color: black;
+    width: 3rem;
+    height: 3rem;
+    font-size: small;
+    padding: 0;
+}
+
+.otp-box{
+    margin: 7rem 0;
+}
+#image{
+	display: none;
+}
