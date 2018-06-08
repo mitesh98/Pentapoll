@@ -1,0 +1,148 @@
+
+
+/*all general styles*/
+body{
+    text-align: center;
+    margin: 0 auto;
+    background-color: #f0f1e9;
+}
+
+
+
+.middle img{
+    width: 66%;
+    height: 66%;
+
+
+}
+.gridstyle div{
+    order: 2;
+    background-color: white;
+    padding: 1em;
+    margin: 1em;
+}
+.grid-image div{
+    width: 80%;
+    height: 80%;
+    background-color: ghostwhite;
+
+      margin: auto;
+    margin-bottom: 1em;
+}
+.poll-list li
+{
+   border-bottom: 1px solid lightslategrey;
+    padding: 1em;
+
+
+
+}
+.gridstyle div:nth-child(2){
+    order: 1;
+}
+
+@media (max-width:992px) {
+    .desktop{
+        display: none;
+    }
+    .grid-image{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+}
+@media (max-width:769px) {
+    .desktop {
+        display: none;
+    }
+
+    .grid-image {
+        display: grid;
+        grid-template-columns: 1fr ;
+
+    }
+
+}
+    @media (min-width:769px) {
+        .desktop{
+            display: none;
+        }
+        .grid-image{
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+
+        }
+
+
+
+        @media (min-width:991px) {
+
+            body {
+                overflow: hidden;
+
+            }
+
+            .mobile {
+                display: none;
+
+            }
+
+            .gridstyle {
+                display: grid;
+                grid-template-columns: 1fr 2fr 1fr;
+                grid-column-gap: 1em;
+            }
+
+            .account-details {
+                height: 32em;
+
+            }
+            .account-details div {
+                margin-top: -1.5em;
+
+
+            }
+
+
+            .poll-list {
+
+                overflow: hidden;
+                overflow-y: auto;
+                height: 28%;
+
+            }
+
+            .middle {
+
+                overflow: hidden;
+                overflow-y: auto;
+                height: 28%;
+
+            }
+
+            .grid-image {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+
+            }
+
+            .poll-list {
+
+                border-left: 2px solid darkslategrey;
+
+            }
+
+        }
+    }
+
+/*rabi*/
+.account-main-content{
+    display: none;
+}
+@media (min-width: 992px) {
+
+    .custom-sidebar-wrapper{
+        display: none;
+    }
+
+}
